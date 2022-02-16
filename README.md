@@ -6,7 +6,7 @@ Some pre-commit hooks for OpenTAI projects.
 
 Add this to your `.pre-commit-config.yaml`
 
-```
+```yaml
 - repo: https://github.com/OpenTAI/pre-commit-hooks
   rev: main  # Use the ref you want to point at
   hooks:
