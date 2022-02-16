@@ -22,6 +22,7 @@ setup(
     entry_points={
         'console_scripts': [
             'say-hello=pre_commit_hooks.say_hello:main',
+            'check-copyright=pre_commit_hooks.check_copyright:main',
         ],
     },
 )

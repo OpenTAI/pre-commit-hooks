@@ -19,3 +19,11 @@ Add this to your `.pre-commit-config.yaml`
 ### say-hello
 
 A template to show how to implement a pre-commit hook
+
+### check-copyright
+
+Check whether the code contains copyright
+
+`includes` - directory to add copyright.
+`--excludes` - exclude directory.
+`--suffixes` - copyright will be added to files with suffix.
