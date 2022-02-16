@@ -8,7 +8,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 - repo: https://github.com/OpenTAI/pre-commit-hooks
-  rev: main  # Use the ref you want to point at
+  rev: 0.1.0  # Use the ref you want to point at
   hooks:
     - id: check-copyright
       args: ["dir_to_check"]  # replace the dir_to_check with your expected directory to check
