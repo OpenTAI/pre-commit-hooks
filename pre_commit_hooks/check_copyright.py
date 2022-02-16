@@ -89,6 +89,7 @@ def get_filepaths(includes: List[str], excludes: List[str],
 def check_copyright(includes: List[str], excludes: List[str],
                     suffixes: List[str]) -> int:
     """Add copyright for those files which lack copyright.
+
     Args:
         includes: Directory to add copyright.
         excludes: Exclude directory.

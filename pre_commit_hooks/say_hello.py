@@ -1,7 +1,9 @@
 import argparse
 
+
 def say_hello(username: str) -> int:
     """Say hello to username.
+
     Args:
         username (str): Say hello to ``username``.
     Returns:
