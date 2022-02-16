@@ -24,6 +24,6 @@ A template to show how to implement a pre-commit hook
 
 Check whether the code contains copyright
 
-`includes` - directory to add copyright.
-`--excludes` - exclude directory.
-`--suffixes` - copyright will be added to files with suffix.
+ * `includes` - directory to add copyright.
+ * `--excludes` - exclude directory.
+ * `--suffixes` - copyright will be added to files with suffix.
